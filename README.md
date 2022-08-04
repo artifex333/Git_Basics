@@ -5,7 +5,7 @@
   - [Installing and configuring Git?](#installing-and-configuring-git)
     - [Installing Git](#installing-git)
     - [Configuring Git](#configuring-git)
-  - [Choosing your managment platforms.](#choosing-your-managment-platforms)
+  - [Choosing your management platforms.](#choosing-your-management-platforms)
     - [GitHub](#github)
     - [GitLab](#gitlab)
     - [BitBucket](#bitbucket)
@@ -21,6 +21,8 @@
   - [Gitignore File](#gitignore-file)
 
 ## What is Git?
+
+![Git_Meme](https://www.memecreator.org/static/images/memes/5482008.jpg)
 
 It's all about version control! Essentially, Git is a light weight, free, open source version control tool used in small and projects to house code for developers to interact with each other. In other words, you can think of Git as a database that devs use to store, ship, and collaborate with other devs on their code.
 
@@ -54,7 +56,7 @@ Configuring your Git will all be done in the CLI.
 - Your user name and email need to match the user name and email you use to sign into your Git management platform (ie. GitHub).
 
 ---
-## Choosing your managment platforms.
+## Choosing your management platforms.
 
 ### GitHub
 
@@ -72,13 +74,15 @@ Configuring your Git will all be done in the CLI.
 
 ## Basic Commands
 
+![git_fire](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSqFsPoKOTiNiamjS9CRpI1BadKwhK-EqGSU2kq8vPuTuejN6RMpcfMDAx5QHn9u_j8Dk&usqp=CAU)
+
 You will be interacting with Git through the CLI at first. Once you understand what the commands are doing, then I'll show you how you can do the same process in VSCode. Below is a useful list of common Git commands you will use.
 
 **Note** This process can done in another IDE, however I use VSCode.
 
 ### clone
 
-- The clone command allows you to clone a repoistory to your machine. It clones all of the documents and code inside the repo, and allows you pull changes and create pull requests when you push to the repository. Cloning a repo will create a directory for that repo in the current path you are in.
+- The clone command allows you to clone a repository to your machine. It clones all of the documents and code inside the repo, and allows you pull changes and create pull requests when you push to the repository. Cloning a repo will create a directory for that repo in the current path you are in.
   - ```git clone https://github.com/repo_name/repo_name```
 
 
@@ -129,9 +133,9 @@ You will be interacting with Git through the CLI at first. Once you understand w
 #### Pull Requests (GitHub)
 
 - Okay, thanks for hanging in there! Now that you have created a branch, modified some files with your badass code, added, committed, and pushed your badass code to your branch, you have to now create a pull request for your code to be merged from your current branch into your main branch. Thankfully, GitHub does all of this for you in the UI. It's pretty simple.
-- In your GitHub repo, click pull request (insert pic)
-- You want to make sure you are merging from the branch where you made the changes to the main branch (insert pic)
-- Write up a message, add a reviewer, and click create pull request. (insert pic)
+- In your GitHub repo, click pull request
+- You want to make sure you are merging from the branch where you made the changes to the main branch
+- Write up a message, add a reviewer, and click create pull request.
 - If this is your personal repo, you can view the PR and merge it yourself. If you are working with a team, get someone else to review your code prior to merging. That way there are a fresh set of eyes looking at the code.
 
 
